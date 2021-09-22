@@ -11,7 +11,7 @@ class HouseTest {
         house.set(10,1985,"Первый дом");
 
         int countYear = house.getCountYear(2021);
-        int result = 35;
+        int result = 36;
         assertEquals(result, countYear);
     }
 }
